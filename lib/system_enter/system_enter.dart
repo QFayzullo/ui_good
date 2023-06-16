@@ -55,8 +55,7 @@ class SystemEnterencePage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontSize: 18,
                   fontFamily: 'Montserrant'
-
-              )
+              ),
               )),
             ),
           ),
