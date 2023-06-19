@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_enter/system_enter/system/enter_system.dart';
+import 'package:ui_enter/system_enter/system/wait_password.dart';
 
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SystemEnterencePage1(),
+      home: WaitPasswordPage(),
     );
   }
 }
