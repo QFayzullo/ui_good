@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_enter/system_enter/password_confirm/password_confirm_1.dart';
-import 'package:ui_enter/system_enter/password_confirm/password_confirm_2.dart';
+import 'enterence_screens/language_screen1.dart';
 
 
 void main() {
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ConfirmPasswordPage2(),
+      home: LanguagePage1(),
     );
   }
 }
